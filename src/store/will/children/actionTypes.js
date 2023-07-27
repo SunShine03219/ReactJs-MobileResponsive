@@ -1,0 +1,12 @@
+export const PUT_CONTENT = "put_children_content";
+export const PUT_CONTENT_SUCCESS = 'PUT_CONTENT_SUCCESS';
+export const PUT_CONTENT_FAIL = 'PUT_CONTENT_FAIL';
+export const UPDATE_CONTENT = 'update_children_content';
+export const UPDATE_CONTENT_SUCCESS = 'update_children_content_success';
+export const FETCH_CONTENT = "fetch_children_content";
+export const GET_CONTENT = "get_children_content";
+export const LOAD_CONTENT = "load_children_content";
+export const LOAD_SUCCESS = "load_children_success";
+export const UPDATE_SUCCESS = 'update_children_success';
+export const API_ERROR = "children_api_error";
+export const RESET_CONTENT = "reset_children_content";

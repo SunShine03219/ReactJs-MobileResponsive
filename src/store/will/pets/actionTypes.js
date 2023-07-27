@@ -1,0 +1,10 @@
+export const PUT_CONTENT = "put_pets_content";
+export const FETCH_CONTENT = "fetch_pets_content";
+export const GET_CONTENT = "get_pets_content";
+export const LOAD_CONTENT = "load_pets_content";
+export const LOAD_SUCCESS = "load_pets_success";
+export const API_ERROR = "pets_api_error";
+export const RESET_CONTENT = "reset_pets_content";
+export const UPDATE_CONTENT = 'update_pets_content';
+export const UPDATE_SUCCESS = 'update_pets_success';
+export const UPDATE_CONTENT_SUCCESS = 'update_pets_content_success';

@@ -1,0 +1,52 @@
+.create_will {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  background-color: #FAFCFD;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 2rem;
+    h1 {
+      font-size: 30px;
+      color: #04BAB8;
+    }
+    .stats {
+      display: flex;
+      grid-gap: 2rem;
+      .stat {
+        h2 {
+          margin: 0.75rem 0;
+          font-size: 30px;
+          color: black;
+        }
+        h5 {
+          font-weight: normal;
+          margin: 0;
+        }
+      }
+    }
+    button {
+      background-color: #087FA7;
+      color: white;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      padding: 0.25rem 2rem;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .create_will {
+    .wrapper {
+      flex-direction: column;
+      
+    }
+  }
+}

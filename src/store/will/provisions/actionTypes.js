@@ -1,0 +1,10 @@
+export const PUT_CONTENT = "put_provisions_content";
+export const FETCH_CONTENT = "fetch_provisions_content";
+export const GET_CONTENT = "get_provisions_content";
+export const LOAD_CONTENT = "load_provisions_content";
+export const LOAD_SUCCESS = "load_provisions_success";
+export const API_ERROR = "provisions_api_error";
+export const RESET_CONTENT = "reset_provisions_content";
+export const UPDATE_CONTENT = 'update_provisions_content';
+export const UPDATE_SUCCESS = 'update_provisions_success';
+export const UPDATE_CONTENT_SUCCESS = 'update_provisions_content_success';

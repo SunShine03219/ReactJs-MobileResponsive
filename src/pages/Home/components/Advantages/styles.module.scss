@@ -1,0 +1,63 @@
+.advantages {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p, h1 {
+      margin: 0;
+    }
+    .upper_heading {
+      color: #04BAB8;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 40px;
+      color: #057CA4;
+    }
+    .description {
+      margin: 2.5rem 0;
+      font-size: 18px;
+      max-width: 780px;
+      text-align: center;
+      .why_is_it_free {
+        color: #057CA4;
+        text-decoration: underline;
+      }
+    }
+    .benefits {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      .benefit {
+        width: 25%;
+        text-align: center;
+        h5, p {
+          margin: 0;
+          padding: 0;
+        }
+        h5 {
+          font-size: 20px;
+          font-weight: 500;
+          margin: 1rem 0;
+        }
+        p {
+          font-size: 14px;
+          color: #656565;
+        }
+      }
+      .benefit:nth-child(2n) {
+        position: relative;
+        top: 3rem;
+      }
+    }
+  }
+}

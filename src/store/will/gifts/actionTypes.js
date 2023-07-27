@@ -1,0 +1,10 @@
+export const PUT_CONTENT = "put_gifts_content";
+export const UPDATE_CONTENT = 'update_gifts_conten';
+export const FETCH_CONTENT = "fetch_gifts_content";
+export const GET_CONTENT = "get_gifts_content";
+export const LOAD_CONTENT = "load_gifts_content";
+export const LOAD_SUCCESS = "load_gifts_success";
+export const API_ERROR = "gifts_api_error";
+export const RESET_CONTENT = "reset_gifts_content";
+export const UPDATE_SUCCESS = 'update_gifts_success';
+export const UPDATE_CONTENT_SUCCESS = 'update_gifts_content_success';

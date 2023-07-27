@@ -1,0 +1,28 @@
+.hero {
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 0 2.5rem;
+    .content {
+      margin-top: 50px;
+
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .sub_title {
+        font-size: 16px;
+      }
+      label {
+        color: blue;
+      }
+
+    }
+
+  }
+}

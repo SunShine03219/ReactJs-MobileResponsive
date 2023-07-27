@@ -1,0 +1,2 @@
+export const SET_CURRENT_STEP = "SET_CURRENT_STEP";
+export const SET_EDIT_STATUS = 'SET_EDIT_STATUS'

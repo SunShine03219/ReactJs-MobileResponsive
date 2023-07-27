@@ -1,0 +1,10 @@
+export const PUT_CONTENT = "put_executor_content";
+export const FETCH_CONTENT = "fetch_executor_content";
+export const GET_CONTENT = "get_executor_content";
+export const LOAD_CONTENT = "load_executor_content";
+export const LOAD_SUCCESS = "load_executor_success";
+export const API_ERROR = "executor_api_error";
+export const RESET_CONTENT = "reset_executor_content";
+export const UPDATE_CONTENT = 'update_executor_content';
+export const UPDATE_SUCCESS = 'update_executor_success';
+export const UPDATE_CONTENT_SUCCESS = 'update_executor_content_success';

@@ -1,0 +1,43 @@
+.passdown {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    .content {
+      width: 50%;
+      img {
+        margin-bottom: 2rem;
+      }
+      h6, p {
+        margin: 0;
+        padding: 0;
+        color: black;
+      }
+      h6 {
+        font-size: 16px;
+        font-weight: normal;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+      .social_media_handles {
+        display: flex;
+        gap: 1rem;
+        img {
+          margin: 0;
+        }
+      }
+    }
+    .image_container {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

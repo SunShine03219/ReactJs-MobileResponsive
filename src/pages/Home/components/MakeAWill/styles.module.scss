@@ -1,0 +1,64 @@
+.make_a_will {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  background-color: #F9F9F9;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .upper_heading {
+      color: #04BAB8;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 30px;
+      color: #057CA4;
+      margin-bottom: 4rem;
+    }
+    .steps {
+      display: flex;
+      justify-content: space-between;
+      .step {
+        width: 30%;
+        text-align: center;
+        position: relative;
+        h5 {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 2rem 0;
+        }
+        p {
+          font-size: 16px;
+        }
+        .dashed_line {
+          position: absolute;
+          top: 1.5rem;
+          left: 70%;
+          width: 80%;
+          border-top: 2px dashed #04BAB8;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .make_a_will {
+    .wrapper {
+      .steps{
+        flex-direction: column;
+        .step{
+          width: 100%;
+          .dashed_line{
+            width: 0;
+          }
+        }
+      }
+    }
+  }
+}

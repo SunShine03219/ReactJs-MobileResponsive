@@ -1,0 +1,66 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 40px;
+      font-weight: normal;
+      color: black;
+      text-align: center;
+      span {
+        color: #057CA4;
+        font-weight: bold;
+      }
+    }
+    p {
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+      margin: 3rem 0 5rem 0;
+    }
+    img{
+      width: 50%;
+      align-items: center;
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    .wrapper {
+      img{
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    .wrapper {
+      img{
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero {
+    .wrapper {
+      img{
+        width: 80%;
+      }
+    }
+  }
+}
+
+

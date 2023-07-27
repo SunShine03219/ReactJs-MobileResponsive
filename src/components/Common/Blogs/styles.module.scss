@@ -1,0 +1,103 @@
+.blogs_section {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  overflow: hidden;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    .content {
+      p, h1 {
+        margin: 0;
+      }
+      .upper_heading {
+        color: #04BAB8;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4rem;
+        h1 {
+          font-size: 30px;
+          color: #057CA4;
+        }
+        button {
+          background: transparent;
+          border: none;
+          outline: none;
+          color: #656565;
+        }
+      }
+    }
+    .blogs {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      overflow-x: scroll;
+      padding-bottom: 2rem;
+      .blog {
+        border: 1px solid #D6D6D6;
+        border-radius: 8px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        transition: all 300ms ease-in-out;
+        user-select: none;
+        .image_container {
+          width: 352px;
+          position: relative;
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+          .date {
+            position: absolute;
+            right: 0.5rem;
+            bottom: 0.5rem;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 8px;
+            background: #057ca492;
+          }
+        }
+        h6, p {
+          margin: 0;
+          padding: 0;
+        }
+        h6 {
+          font-size: 16px;
+          font-weight: bold;
+          color: black;
+          cursor: pointer;
+          &:hover {
+            color: red;
+          }
+        }
+        p {
+          display: none;
+        }
+      }
+    }
+    .blogs::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .blogs_section {
+    .wrapper {
+      .content {
+        .heading {
+          flex-direction: column;
+          grid-gap: 2rem;
+        }
+      }
+    }
+  }
+}

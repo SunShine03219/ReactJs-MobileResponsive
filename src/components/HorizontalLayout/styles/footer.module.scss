@@ -1,0 +1,49 @@
+.footer {
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-top: 3rem;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+    }
+    div {
+      display: flex;
+      gap: 4rem;
+      .terms {
+        cursor: pointer;
+        &:hover{
+          color: aqua;
+        }
+      }
+      .policy {
+        cursor: pointer;
+        &:hover{
+          color: aqua;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    .wrapper {
+      flex-direction: column;
+      div{
+        grid-gap: 1rem;
+        flex-flow: wrap-reverse;
+        justify-content: center;
+      }
+    }
+  }
+}

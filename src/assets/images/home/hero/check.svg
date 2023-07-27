@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <g id="check" transform="translate(-3 -10.5)">
+    <rect id="bg" width="10" height="10" transform="translate(3 10.5)" fill="#fff" opacity="0"/>
+    <path id="Path_45435" data-name="Path 45435" d="M656.267-7007.262l-3.017-3.17a.957.957,0,0,1,0-1.287l.689-.719a.862.862,0,0,1,1.235,0l1.707,1.793,3.947-4.1a.862.862,0,0,1,1.235,0l.689.719a.954.954,0,0,1,0,1.287l-4.461,4.629a.869.869,0,0,1-.1.125l-.689.718a.854.854,0,0,1-.618.26A.85.85,0,0,1,656.267-7007.262Z" transform="translate(-650.001 7026.501)" fill="#fff"/>
+  </g>
+</svg>

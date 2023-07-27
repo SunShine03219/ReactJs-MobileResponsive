@@ -1,0 +1,70 @@
+.make_a_will_today {
+  min-height: 535px;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    grid-gap: 2rem;
+    .image {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      width: 60%;
+      p, h1 {
+        margin: 0;
+      }
+      .upper_heading {
+        color: #04BAB8;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        font-size: 40px;
+        color: #057CA4;
+      }
+      .description {
+        margin: 2.5rem 0;
+        font-size: 18px;
+      }
+      button {
+        background-color: #087FA7;
+        color: white;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        padding: 0.25rem 2rem;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .make_a_will_today {
+    min-height: 535px;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+    .wrapper {
+      flex-flow: wrap-reverse;
+      .content{
+        width: 100%;
+      }
+      .image{
+        width: 100%;
+      }
+    }
+  }
+}

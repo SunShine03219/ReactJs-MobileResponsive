@@ -1,0 +1,10 @@
+export const PUT_CONTENT = "put_assets_content";
+export const FETCH_CONTENT = "fetch_assets_content";
+export const GET_CONTENT = "get_assets_content";
+export const LOAD_CONTENT = "load_assets_content";
+export const LOAD_SUCCESS = "load_assets_success";
+export const API_ERROR = "assets_api_error";
+export const RESET_CONTENT = "reset_assets_content";
+export const UPDATE_CONTENT = 'update_assets_content';
+export const UPDATE_SUCCESS = 'update_assets_success';
+export const UPDATE_CONTENT_SUCCESS = 'update_assets_content_success';

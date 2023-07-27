@@ -1,0 +1,69 @@
+.why_us {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  background-color: #F9F9F9;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p, h2 {
+      margin: 0;
+      padding: 0;
+    }
+    .upper_heading {
+      color: #04BAB8;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 40px;
+      color: #057CA4;
+    }
+    .description {
+      width: 42rem;
+      text-align: center;
+      margin: 2.5rem 0;
+      font-size: 18px;
+      .why_is_it_free {
+        color: #057CA4;
+        text-decoration: underline;
+      }
+    }
+    .cards {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 2rem;
+      row-gap: 2rem;
+      margin-top: 2rem;
+      .card {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 8px;
+        border: 1px solid #D6D6D6;
+        h4, p {
+          margin: 0;
+          padding: 0;
+        }
+        .heading {
+          display: flex;
+          align-items: center;
+          img {
+            margin-right: 1rem;
+          }
+          h4 {
+            font-size: 22px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

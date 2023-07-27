@@ -1,0 +1,52 @@
+$title-size: 18px;
+$subtitle-size: 14px;
+$text-size: 12px;
+
+.pdf-header {
+  margin-top: 6mm;
+  p {
+    text-align: center;
+    font-size: $title-size;
+  }
+}
+
+.title {
+  font-size: $text-size;
+  text-align: left;
+}
+
+section {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  .subtitle {
+    font-size: $subtitle-size;
+    text-align: center;
+  }
+  ol {
+    list-style-type: upper-alpha;
+    text-align: left;
+    li {
+      font-size: $text-size;
+      ol {
+        list-style-type: lower-alpha;
+      }
+    }
+  }
+  .description {
+    font-size: $text-size;
+    text-align: left;
+  }
+}
+
+.flex-content {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  .underline {
+    margin: 0;
+  }
+  .font-text {
+    font-size: 10px;
+  }
+}

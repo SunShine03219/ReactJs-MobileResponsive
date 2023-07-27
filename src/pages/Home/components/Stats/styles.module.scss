@@ -1,0 +1,43 @@
+.stats {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  background-color: #057CA4;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-gap: 2rem;
+    .stat {
+      width: 30%;
+      text-align: center;
+      h1, p {
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 1.5rem 0;
+      }
+      p {
+        font-size: 25px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .stats {
+    .wrapper {
+      flex-direction: column;
+      .stat {
+        width: 100%;
+      }
+    }
+  }
+}

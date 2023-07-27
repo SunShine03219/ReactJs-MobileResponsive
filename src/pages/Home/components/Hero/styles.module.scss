@@ -1,0 +1,206 @@
+.hero {
+  height: auto;
+  background-color: #087FA7;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  color: white;
+  .wrapper {
+    max-width: 1360px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    .content {
+      width: 50%;
+      padding: 5rem 0 0 0;
+      p, h1 {
+        margin: 0;
+        padding: 0;
+      }
+      .upper_heading {
+        font-size: 18px;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        color: white;
+        font-size: 30px;
+      }
+      .description {
+        font-size: 20px;
+        width: 30rem;
+        margin: 2rem 0;
+      }
+      button {
+        background: white;
+        color: #087FA7;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0.25rem 2rem;
+        border-radius: 4px;
+        box-shadow: 2px 2px 5px rgb(102, 102, 102);
+        border: none;
+        outline: none;
+      }
+      footer {
+        display: flex;
+        margin-top: 1.5rem;
+        div {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          img {
+            height: 12px;
+          }
+          p {
+            width: 10rem;
+          }
+        }
+      }
+    }
+    .images {
+      height: 100%;
+      width: 50%;
+      position: relative;
+      img {
+        position: relative;
+      }
+      .chat_img {
+        top: 0;
+        left: 0;
+      }
+      .writing_img {
+        top: 1rem;
+        left: 18rem;
+      }
+      .input_container {
+        width: 87%;
+        position: absolute;
+        bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        .autocomplete {
+          border-bottom: 1px solid #5BBAD8;
+          padding-bottom: 1.5rem;
+          margin-bottom: 1.5rem;
+          display: flex;
+          gap: 1rem;
+          button {
+            background-color: #38A5C7;
+            border: none;
+            outline: none;
+            padding: 0.35rem 1rem;
+            border-radius: 4px;
+          }
+        }
+        .input_box {
+          background-color: white;
+          padding: 0.75rem;
+          color: black;
+          border-radius: 8px;
+          input {
+            width: 95%;
+            border: 0;
+            outline: 0;
+            font-style: italic;
+          }
+        }
+      }
+    }
+    .scroll_down {
+      position: absolute;
+      left: -3rem;
+      bottom: 5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transform: rotate(-90deg);
+      img {
+        transform: rotate(90deg);
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .hero {
+    .wrapper{
+      .images{
+        .writing_img{
+          left: 15rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .hero {
+    .wrapper{
+      .images{
+        .writing_img{
+          left: 10rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .hero {
+    .wrapper{
+      .images{
+        .writing_img{
+          left: 5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero{
+    .wrapper{
+      flex-direction: column;
+      grid-gap: 3rem;
+      .content{
+        width: 100%;
+        padding: 0;
+        .description{
+          width: 100%;
+          padding: 0 1rem 0 1rem;
+        }
+      }
+      .images{
+        display: flex;
+        .writing_img{
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .hero{
+    .wrapper{
+      .images{
+        flex-direction: column;
+        grid-gap: 1rem;
+        align-items: center;
+        width: 100%;
+        .chat_img {
+          width: 80%;
+        }
+        .writing_img {
+          width: 80%;
+        }
+      }
+    }
+  }
+}

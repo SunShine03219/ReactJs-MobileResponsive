@@ -1,0 +1,18 @@
+
+@import "custom/fonts/fonts";
+//Core files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+
+// Pages
+@import "custom/pages/authentication";
+@import "custom/pages/email";
+@import "custom/pages/coming-soon";
+@import "custom/pages/timeline";
+@import "custom/pages/extras-pages";
+@import "custom/pages/will";
+@import "custom/pages/pdf-export";
+@import "custom/pages/get-start";
+@import "custom/pages/profile";
